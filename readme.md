@@ -5,4 +5,4 @@ Since we're doing some work on graphs, I thought it'll be fun to see the network
 
 
 
-*Data is compiled by Donal Knuth. 
+*Data is compiled by Donald Knuth. 
