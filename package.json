@@ -2,6 +2,10 @@
   "name": "play",
   "version": "0.0.1",
   "private": true,
+  "engines": {
+    "node": "0.8.8",
+    "npm":  "1.1.49"
+  },
   "scripts": {
     "start": "node app",
     "devserver": "./node_modules/node-dev/node-dev app"
