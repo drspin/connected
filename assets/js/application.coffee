@@ -6,8 +6,6 @@
 #   .delay(1000)
 #   .style("background-color", "black")
 
-# create a svg area
-svg = d3.select("body").append("svg").attr("width", "100%").attr("height", "100%")
 
 # Data
 # dataset = [ 5, 10, 15, 20, 25 ]
@@ -37,6 +35,9 @@ svg = d3.select("body").append("svg").attr("width", "100%").attr("height", "100%
 
 width = 1200
 height = 800
+
+# create a svg area
+svg = d3.select("body").append("svg").attr("width", width).attr("height", height)
 
 force = d3.layout.force()
   .gravity(.05)
